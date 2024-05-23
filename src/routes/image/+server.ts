@@ -5,6 +5,7 @@ import OpenAI from "openai";
 const openai = new OpenAI({
   apiKey: env.OPENAI_API_KEY!,
 });
+
 export const POST = async ({ request }) => {
   const { prompt } = await request.json();
   const response = await openai.images.generate({
