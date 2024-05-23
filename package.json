@@ -1,5 +1,5 @@
 {
-  "name": "jolie-phil",
+  "name": "wtf-dinner",
   "version": "0.0.1",
   "scripts": {
     "dev": "vite dev",
@@ -30,6 +30,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@vercel/analytics": "^1.2.2"
+    "@vercel/analytics": "^1.2.2",
+    "openai": "^4.47.1"
   }
 }
