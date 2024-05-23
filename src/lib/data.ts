@@ -193,6 +193,7 @@ export const seasonings = [
   "Fennel seeds",
   "Fenugreek",
   "Fish sauce",
+  "Furikake",
   "Galangal",
   "Garam masala",
   "Garlic powder",
