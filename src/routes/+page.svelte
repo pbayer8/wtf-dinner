@@ -1,6 +1,9 @@
 <script lang="ts">
   import { preparations, proteins, seasonings, vegetables } from "$lib/data";
+  import { inject } from "@vercel/analytics";
   import "./styles.css";
+
+  inject();
 
   const pick = (array: string[]) =>
     array[Math.floor(Math.random() * array.length)];
