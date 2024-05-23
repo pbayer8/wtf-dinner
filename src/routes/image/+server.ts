@@ -2,6 +2,10 @@ import { env } from "$env/dynamic/private";
 import { json } from "@sveltejs/kit";
 import OpenAI from "openai";
 
+export const config = {
+  maxDuration: 60,
+};
+
 const openai = new OpenAI({
   apiKey: env.OPENAI_API_KEY!,
 });
