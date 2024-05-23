@@ -15,7 +15,7 @@ export const proteins = [
   "Ground turkey",
   "Kidney beans",
   "Lamb chops",
-  "Lamb ground",
+  "Ground lamb",
   "Lentils",
   "Lobster",
   "Navy beans",
