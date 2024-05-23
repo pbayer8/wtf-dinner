@@ -67,7 +67,7 @@ export const vegetables = [
   "Brussels sprout",
   "Eggplant",
   "Mushroom",
-  "Sweet potatoe",
+  "Sweet potato",
   "Butternut squash",
   "Beet",
   "Radish",
