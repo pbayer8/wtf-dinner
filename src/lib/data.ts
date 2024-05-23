@@ -20,7 +20,7 @@ export const proteins = [
   "Lobster",
   "Navy beans",
   "Pinto beans",
-  "Plant-based meat substitutes",
+  "Plant-based meat",
   "Pork belly",
   "Pork chop",
   "Salmon",
