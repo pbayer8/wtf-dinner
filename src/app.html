@@ -1,9 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%sveltekit.assets%/favicon.png?v=1" />
     <meta name="viewport" content="width=device-width" />
+    <title>WTF for Dinner - Random Meal Inspiration Generator</title>
+    <meta
+      name="description"
+      content="Tired of cooking the same meals? Get instant dinner inspiration with our random meal combination generator. Discover new protein, vegetable, and seasoning pairings!"
+    />
+    <meta
+      name="keywords"
+      content="dinner ideas, meal inspiration, random recipe generator, what to cook, dinner generator, meal planning"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="WTF for Dinner - Random Meal Inspiration Generator"
+    />
+    <meta
+      property="og:description"
+      content="Get instant dinner inspiration with random meal combinations. Break out of your cooking routine!"
+    />
+    <meta property="og:image" content="%sveltekit.assets%/og-image.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="WTF for Dinner - Random Meal Inspiration Generator"
+    />
+    <meta
+      name="twitter:description"
+      content="Get instant dinner inspiration with random meal combinations. Break out of your cooking routine!"
+    />
+    <meta name="twitter:image" content="%sveltekit.assets%/og-image.png" />
+
+    <!-- Additional SEO -->
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="WTF Dinner" />
+    <link rel="canonical" href="https://wtf-dinner.vercel.app" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "WTF for Dinner",
+        "description": "A random meal inspiration generator that helps you decide what to cook by combining proteins, vegetables, and seasonings in creative ways.",
+        "applicationCategory": "FoodAndDrink",
+        "operatingSystem": "Any",
+        "offers": {
+          "@type": "Offer",
+          "price": "0"
+        }
+      }
+    </script>
+
     %sveltekit.head%
   </head>
   <body data-sveltekit-preload-data="hover">

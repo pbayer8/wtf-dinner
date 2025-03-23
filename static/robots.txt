@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wtf-dinner.vercel.app/sitemap.xml 
